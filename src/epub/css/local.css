@@ -85,6 +85,14 @@ p span.i2{
 	text-indent: -1em;
 }
 
+/* Song */
+[epub|type~="z3998:hymn"] hgroup p,
+[epub|type~="z3998:poem"] hgroup p,
+[epub|type~="z3998:song"] hgroup p,
+[epub|type~="z3998:verse"] hgroup p{
+	text-align: center;
+}
+
 /* Abbreviations */
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
