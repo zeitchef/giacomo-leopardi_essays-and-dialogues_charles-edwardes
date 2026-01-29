@@ -46,15 +46,6 @@ section[epub|type~="z3998:scene"] > p{
 	width: 75%;
 }
 
-/* Drama / Stage Directions */
-[epub|type~="z3998:stage-direction"].editorial::before{
-	content: "[";
-}
-
-[epub|type~="z3998:stage-direction"].editorial::after{
-	content: "]";
-}
-
 /* Poetry */
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
@@ -63,34 +54,6 @@ section[epub|type~="z3998:scene"] > p{
 
 [epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
-}
-
-[epub|type~="z3998:poem"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:poem"] p > span + br{
-	display: none;
-}
-
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
-/* Song */
-[epub|type~="z3998:hymn"] hgroup p,
-[epub|type~="z3998:poem"] hgroup p,
-[epub|type~="z3998:song"] hgroup p,
-[epub|type~="z3998:verse"] hgroup p{
-	text-align: center;
 }
 
 /* Abbreviations */
