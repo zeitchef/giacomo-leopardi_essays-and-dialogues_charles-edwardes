@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:epub="http://www.idpf.org/2007/ops" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/giacomo-leopardi/essays-and-dialogues/charles-edwardes</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
@@ -32,48 +32,48 @@
 		<dc:subject id="subject-1">Essays</dc:subject>
 		<dc:subject id="subject-2">Dialogues</dc:subject>
 		<dc:subject id="subject-3">Italian literature -- Translations into English</dc:subject>
+		<dc:subject id="subject-4">Philosophy</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85044914</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85037534</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008124269</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Philosophy</meta>
+		<dc:description id="description">A collection of philosophical essays and dialogues by Giacomo Leopardi, translated by Charles Edwardes.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Essays and Dialogues&lt;/i&gt; brings together a series of prose works by &lt;a href="https://standardebooks.org/ebooks/giacomo-leopardi"&gt;Giacomo Leopardi&lt;/a&gt; that uniquely blend incisive wit, playful invention, and philosophical depth. Drawing inspiration from classical models of satirical writing and philosophical dialogues, these twenty-four pieces employ sharp irony, lively banter, allegory, and parody with moments of profound reflection.&lt;/p&gt;
+			&lt;p&gt;Written between 1824 and 1832, Leopardi’s compositions display philosophical rigor in their unsparing exploration of existence. The works interrogate the nature of happiness and illusion, the role of reason, and the often harsh or indifferent character of Nature. Themes of existential boredom, the decay of ideals, and humanity’s perennial search for meaning recur throughout, woven with a skeptical voice that is both disillusioned and subtly comic.&lt;/p&gt;
+			&lt;p&gt;This edition presents &lt;i&gt;Essays and Dialogues&lt;/i&gt; in an English translation by Charles Edwardes, making accessible one of nineteenth-century Europe’s most original and provocative treatments of the human condition—a work that invites both delight and deep consideration.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/52356</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://www.google.de/books/edition/Essays_and_Dialogues_of_Giacomo_Leopardi/KfwFAAAAQAAJ</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Small_Moral_Works</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/giacomo-leopardi_essays-and-dialogues_charles-edwardes</meta>
 		<dc:creator id="author">Giacomo Leopardi</dc:creator>
 		<meta property="file-as" refines="#author">Leopardi, Giacomo</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Giacomo Taldegardo Francesco di Sales Saverio Pietro Leopardi</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Giacomo_Leopardi</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79084166</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Charles Edwardes</dc:contributor>
 		<meta property="file-as" refines="#translator">Edwardes, Charles</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n88608768</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Domenico Morelli</dc:contributor>
+		<meta property="file-as" refines="#artist">Morelli, Domenico</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Domenico_Morelli</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2002061649</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Marc D’Hooghe</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">D’Hooghe, Marc</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Scott Voyles</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Voyles, Scott</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/zeitchef</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
