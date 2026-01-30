@@ -46,13 +46,13 @@ section[epub|type~="z3998:scene"] > p{
 	width: 75%;
 }
 
-/* Poetry */
-[epub|type~="z3998:poem"] p{
+/* Song */
+[epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
