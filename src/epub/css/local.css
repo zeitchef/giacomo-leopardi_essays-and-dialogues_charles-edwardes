@@ -41,19 +41,16 @@ table[epub|type~="z3998:drama"]{
 	font-variant: all-small-caps;
 }
 
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
-}
-
 /* Song */
 [epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p + p{
-	margin-top: 1em;
+/* Verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
 }
 
 /* Abbreviations */
@@ -62,10 +59,10 @@ abbr[epub|type~="se:era"]{
 }
 
 /* Custom */
-#epitaph-ottonieri{
+#chapter-15 blockquote:nth-of-type(1){
 	text-align: center;
 }
 
-#epitaph-ottonieri b{
+#chapter-15 blockquote:nth-of-type(1) b{
 	font-size: larger;
 }
