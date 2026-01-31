@@ -40,6 +40,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008124269</meta>
 		<meta property="se:subject">Philosophy</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of philosophical essays and dialogues by Giacomo Leopardi, translated by Charles Edwardes.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Essays and Dialogues&lt;/i&gt; brings together a series of prose works by &lt;a href="https://standardebooks.org/ebooks/giacomo-leopardi"&gt;Giacomo Leopardi&lt;/a&gt; that uniquely blend incisive wit, playful invention, and philosophical depth. Drawing inspiration from classical models of satirical writing and philosophical dialogues, these twenty-four pieces employ sharp irony, lively banter, allegory, and parody with moments of profound reflection.&lt;/p&gt;
