@@ -63,6 +63,7 @@
 		<dc:contributor id="translator">Charles Edwardes</dc:contributor>
 		<meta property="file-as" refines="#translator">Edwardes, Charles</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n88608768</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Domenico Morelli</dc:contributor>
 		<meta property="file-as" refines="#artist">Morelli, Domenico</meta>
